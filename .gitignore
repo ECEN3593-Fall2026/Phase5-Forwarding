@@ -1,0 +1,14 @@
+# Ignore OS-generated specific files
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Ignore iverilog output 
+.out
+.vcd
+
+# Ignore assembly compilation output
+.o
+.elf
+.bin
+
