@@ -125,23 +125,23 @@ Submit the URL in canvas as the submission when you are completed.
 
 
 ### Rubric:
-20 points total
+10 points total
 
 If your System Verilog code does not compile and run without errors, you will be assigned a 0.  You will be given 1 opportunity, and 24 hours, to correct and notify the TA that let you know.
 
 with a solution that does compile/run, below is the rubric:
 
-1 point for file AI-use-statement.md (if you called it AI_use_statement.md, that's fine too).
+0.5 point for file AI-use-statement.md (if you called it AI_use_statement.md, that's fine too).
 
-7 points for code that looks right (they exist and look reasonable to the TA.  This is effectively the opportunities for partial credit when your code doesn't work):
+3.5 points for code that looks right (they exist and look reasonable to the TA.  This is effectively the opportunities for partial credit when your code doesn't work):
 * (0.5) decode -- new outputs and assignment
-* (1) execute -- new inputs
-* (2) execute -- fwdA, fwdB muxes
-* (2) execute -- fwdA_sel, fwdB_sel logic (CTRL A and CTRL B in the diagram)
-* (1)execute -- updated ALU and src2 mux inputs
+* (0.5) execute -- new inputs
+* (0.5) execute -- fwdA, fwdB muxes
+* (1) execute -- fwdA_sel, fwdB_sel logic (CTRL A and CTRL B in the diagram)
+* (0.5)execute -- updated ALU and src2 mux inputs
 * (0.5) cpu.sv -- wired up new inputs/outputs
 
-12 points for correct execution (we'll use phase5-provided.S, which, has 12 registers that get modified), where you'll get credit based on how many are correct.
+6 points for correct execution (we will use phase5-provided.S, which, has 12 registers that get modified), where you'll get credit based on how many are correct.
 
 
 
